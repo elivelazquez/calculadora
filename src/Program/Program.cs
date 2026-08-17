@@ -9,10 +9,10 @@
     }
 }
 
-public class Multiplication
+public class Division
 {
-   public static int Multiply(int a, int b)
+   public static double Divide(int a, int b)
    {
-       return a * b;
+       return (double)a / b;
    }
 }
